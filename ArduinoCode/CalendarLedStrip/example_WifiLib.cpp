@@ -21,11 +21,11 @@ const char *WifiLib::getSite(int sitenr)
 {
   if (sitenr == 1)
   {
-    return "***";
+    return "***"; // google cloud website
   }
   else
   {
-    return "***";
+    return "***"; // test website
   }
 }
 const int WifiLib::getMode()
